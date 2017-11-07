@@ -12,8 +12,8 @@ module.exports = {
     password: process.env.DB_PASSWORD,
     database: 'viajeEstudios',
   },
-    myEmailDatasource: {
-    name: "myEmailDatasource",
+    myEmailDataSource: {
+    name: "myEmailDataSource",
   connector: "mail",
   transports: [{
     type: "SMTP",

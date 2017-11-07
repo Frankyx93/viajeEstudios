@@ -72,6 +72,9 @@
     "public": true,
     "options": {
       "emailVerificationRequired": true
+        }
+    },
+    "Email": {
+    "dataSource": "myEmailDataSource"
     }
-  }
 }
