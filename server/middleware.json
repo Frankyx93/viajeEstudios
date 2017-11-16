@@ -33,6 +33,9 @@
   "session": {},
   "auth": {},
   "parse": {},
+  "initial:before": {
+    "./middleware/mymiddleware.js":{}
+  },
   "routes": {
     "loopback#rest": {
       "paths": [
